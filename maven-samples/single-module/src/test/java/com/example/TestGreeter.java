@@ -30,9 +30,15 @@ public class TestGreeter {
 
   @Test
   public void intentinational_Failed() {
-    assertTrue(false);
+    assertTrue[false];
 
     
+  }
+  @Test
+  public void greetShouldIncludeGreetingMessage() {
+    String someone = "World";
+
+    assertThat(greeter.greet(someone).length(), is(greaterThan(someone.length())));
   }
 
     @Test
